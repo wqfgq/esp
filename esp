@@ -159,7 +159,7 @@ local function PikaESP(v)
                         Gun.Font = 3
                     end
                     Gun.Size = PikaESPSettings.TextSize
-                    Gun.Text = tostring("")
+                    Gun.Text = tostring(" ")
                     Gun.Position = Vector2.new(LegPosition.X, LegPosition.Y + 10)
                     Gun.Visible = true
                 else
